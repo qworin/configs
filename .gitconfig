@@ -1,0 +1,34 @@
+[core]
+	editor = nano
+	filemode = false
+[alias]
+	alias = config --get-regexp alias
+	name = "!git rev-parse --abbrev-ref HEAD"
+	a = "add"
+	ap = "add -p"
+	amend = "commit --amend"
+	c = "commit -m"
+	ch = "checkout"
+	chp = "checkout -p"
+	ci = "commit"
+	f = "diff"
+	h = "!git push origin $(git name)"
+	l = !git pull origin $(git name)
+	unstage = "reset HEAD --"
+	lg = "log --color --pretty=format:\"%C(yellow)%h %C(green)%ad%C(reset) %s%C(bold red)%d%C(reset) %C(blue)[%an]%C(reset)\" --relative-date --decorate"
+	ll = !git lg --since=\"1 day ago\"
+	p = "!git push origin $(git name)"
+	s = "status"
+	ss = "!git s -s"
+	w = clone
+	con = config --global
+	see = show
+	seef = show --name-only
+	br = branch -a
+	cur = diff --cached
+	cp = cherry-pick
+	sa = stash apply
+	sh = stash
+	fe = fetch origin
+[help]
+	autocorrect = 1

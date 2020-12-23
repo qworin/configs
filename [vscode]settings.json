@@ -1,0 +1,155 @@
+{
+  "workbench.colorTheme": "Visual Studio Light",
+  "editor.fontSize": 11.5,
+  "editor.fontFamily": "Jetbrains Mono, Ubuntu Mono, Consolas, 'Courier New', monospace",
+  "terminal.integrated.fontFamily": "Jetbrains Mono, Ubuntu Mono, Consolas, 'Courier New', monospace",
+  "editor.tabSize": 2,
+  "editor.renderWhitespace": "boundary",
+  "terminal.integrated.cursorStyle": "line",
+  "explorer.confirmDragAndDrop": false,
+  "editor.tabCompletion": "on",
+  "editor.rulers": [70],
+  "window.zoomLevel": 0,
+  "workbench.startupEditor": "newUntitledFile",
+  "terminal.integrated.copyOnSelection": true,
+  "terminal.integrated.fontSize": 11.5,
+  "bracket-pair-colorizer-2.colors": [
+    "Orchid", "Navy", "LightSlateGrey", "LightSalmon"
+  ],
+  "editor.tokenColorCustomizations": {
+      "types": "#790039",
+      "keywords": "#6900b5",
+      "textMateRules": [
+          {
+              "scope": [
+                  "storage.type",
+                  "keyword.control",
+                  "meta.type",
+                  "variable.language"
+              ],
+              "settings": { "foreground": "#6900b5", "fontStyle": "" }
+          }, {
+              "scope": ["comment"],
+              "settings": { "fontStyle": "italic" }
+          }, {
+              "scope": ["invalid"],
+              "settings": { "foreground": "#00000088" }
+          }
+      ]
+  },
+  "explorer.confirmDelete": false,
+  "workbench.activityBar.visible": true,
+  "workbench.statusBar.visible": true,
+  "workbench.sideBar.location": "left",
+  "breadcrumbs.enabled": true,
+  "editor.renderControlCharacters": false,
+  "terminal.integrated.rendererType": "dom",
+  "eslint.alwaysShowStatus": true,
+  "less.lint.boxModel": "warning",
+  "less.lint.compatibleVendorPrefixes": "warning",
+  "less.lint.duplicateProperties": "warning",
+  "less.lint.emptyRules": "ignore",
+  "less.lint.important": "warning",
+  "less.lint.universalSelector": "warning",
+  "todohighlight.keywords": [
+      {
+          "text": "TODO",
+          "backgroundColor": "orange",
+          "color": "white",
+          "outline": "1px solid orange"
+      }, {
+          "text": "FIXME",
+          "backgroundColor": "hotpink",
+          "color": "snow",
+          "outline": "1px solid hotpink"
+      }, {
+          "text": "TOREMOVE",
+          "isWholeLine": true,
+          "color": "white",
+          "backgroundColor": "lightcoral",
+          "overviewRulerColor": "crimson"
+      }, {
+          "text": "REMOVE?",
+          "isWholeLine": true,
+          "color": "lightcoral",
+          "backgroundColor": "snow",
+          "overviewRulerColor": "crimson",
+          "outline": "1px solid coral"
+      }, {
+          "text": "TODEL",
+          "isWholeLine": true,
+          "color": "crimson",
+          "backgroundColor": "snow"
+      }, {
+          "text": "console.log",
+          "color": "snow",
+          "backgroundColor": "salmon",
+          "outline": "2px solid salmon"
+      }, {
+          "text": " NB ",
+          "color": "snow",
+          "backgroundColor": "steelblue",
+          "outline": "1px solid steelblue",
+          "fontStyle": "normal"
+      }, {
+          "text": " EG ",
+          "color": "snow",
+          "backgroundColor": "peru"
+      }, {
+          "text": "ORLY?",
+          "color": "cornsilk",
+          "backgroundColor": "coral"
+      }, {
+          "text": "DEPRECATED",
+          "color": "brown",
+          "backgroundColor": "bisque"
+      }, {
+          "text": "TMP",
+          "color": "ivory",
+          "backgroundColor": "limegreen"
+      }, {
+          "text": "TESTING",
+          "color": "ivory",
+          "backgroundColor": "seagreen"
+      }, {
+          "text": "----------",
+          "isWholeLine": true,
+          "color": "snow",
+          "backgroundColor": "navy"
+      }, {
+          "text": "//--",
+          "isWholeLine": true,
+          "color": "peru",
+          "backgroundColor": "transparent"
+      }
+  ],
+  "files.autoSaveDelay": 600000,
+  "editor.cursorSurroundingLines": 3,
+  "textmarker.highlightColors": [
+      "pink",
+      "goldenrod",
+      "darkorange",
+      "wheat",
+      "darksalmon",
+      "darkkhaki",
+      "cornflowerblue"
+  ],
+  "gitlens.currentLine.enabled": false,
+  "git.autoStash": true,
+  "editor.mouseWheelZoom": true,
+  "terminal.integrated.rightClickBehavior": "paste",
+  "javascript.updateImportsOnFileMove.enabled": "always",
+  "files.autoSave": "off",
+  "editor.codeActionsOnSave": {
+      "source.fixAll.eslint": true,
+      "source.fixAll": true
+  },
+  "terminal.integrated.shell.windows": "C:\\Program Files\\Git\\bin\\bash.exe",
+  "extensions.ignoreRecommendations": false,
+  "editor.fontWeight": "normal",
+  "editor.cursorBlinking": "smooth",
+  "editor.find.addExtraSpaceOnTop": false,
+  "editor.minimap.scale": 2,
+  "editor.minimap.maxColumn": 70,
+  "editor.minimap.showSlider": "always"
+}
