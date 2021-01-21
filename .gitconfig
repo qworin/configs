@@ -30,5 +30,6 @@
 	sa = stash apply
 	sh = stash
 	fe = fetch origin
+	undo = reset --soft HEAD~1
 [help]
 	autocorrect = 1
